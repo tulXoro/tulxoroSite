@@ -1,0 +1,49 @@
+.hero {
+    background: url(../../public/hero.jfif) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: fill;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.scroll-down {
+    background-color: rgb(44, 44, 44, 0.5);
+    position: absolute;
+    border-radius: 20%;
+    
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #fff;
+    animation: bounce 2s infinite;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.scroll-down:hover {
+    background-color: rgb(44, 44, 44, 0.8);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}

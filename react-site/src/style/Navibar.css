@@ -1,0 +1,59 @@
+.navibar {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    max-width: min-content;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1em;
+
+    z-index: 1;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navi-links {
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.navi-items:hover {
+    background-color: rgb(0, 74, 74);
+}
+
+.page-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.page-link:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
