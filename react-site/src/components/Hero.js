@@ -1,10 +1,8 @@
-import { React, createRef } from "react";
+import { React } from "react";
 
 import "../style/Hero.css";
 
 const Hero = (props) => {
-
-    let contentRef = createRef();
 
     return (
         <div className="hero">
