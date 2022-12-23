@@ -11,20 +11,20 @@ import './style/Global.css'
 
 function App() {
 
-  return (
-    <div className="App">
+    return (
+        <div className="App">
 
-      <Router>
-      <Navibar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-      </Router>
-    </div>
-  );
+            <Router>
+            <Navibar />
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="*" element={<Home />} />
+                </Routes>
+            </Router>
+        </div>
+    );
 }
 
 export default App;

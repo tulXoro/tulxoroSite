@@ -1,4 +1,3 @@
-
 .about {
     background-color: rgb(44, 44, 44);
     min-height: 100vh;
@@ -7,3 +6,26 @@
     justify-content: center;
 
 }
+
+.about-container {
+    margin-top: 20px;
+    margin-left: 20%;
+    background-color: rgb(44, 44, 44);
+    min-height: 100vh;
+    padding: 20px;
+    display: fixed;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about-container {
+        display: absolute;
+        top: initial;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+    }
+  }
