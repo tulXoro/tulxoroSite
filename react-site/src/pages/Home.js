@@ -18,6 +18,10 @@ class Home extends Component {
     window.scrollTo(0, 0);
   }
 
+  componentWillUnmount() {
+    document.getElementById("main").classList.remove("home");
+  }
+
   scrollToContent = () => {
     this.contentRef.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -27,7 +31,7 @@ class Home extends Component {
       <main id="main">
         <Hero scrollto={ this.scrollToContent } />
         <div className="content" ref={ this.contentRef }>
-          <h1>Home</h1>
+          <h1 className="home-title">Home</h1>
         </div>
       </main>
     );
