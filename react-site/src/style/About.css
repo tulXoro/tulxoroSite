@@ -17,7 +17,7 @@
     justify-content: center;
 }
 
-
+/* TODO: fix mobile view */
 @media only screen and (max-width: 768px) {
     .about-container {
         display: absolute;
