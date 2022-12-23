@@ -10,6 +10,7 @@ class Projects extends React.Component {
   componentDidMount() {
     document.title = "Projects";
     document.getElementById("main").classList.add("projects");
+
   }
 
   componentWillUnmount() {
