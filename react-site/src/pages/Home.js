@@ -12,6 +12,12 @@ class Home extends Component {
     this.scrollToContent = this.scrollToContent.bind(this);
   }
 
+  componentDidMount() {
+    document.title = "Home";
+    document.getElementById("main").classList.add("home");
+    window.scrollTo(0, 0);
+  }
+
   scrollToContent = () => {
     this.contentRef.current.scrollIntoView({ behavior: "smooth" });
   };

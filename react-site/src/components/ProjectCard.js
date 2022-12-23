@@ -4,7 +4,7 @@ import { Box, Button, Card, CardContent, CardMedia, Typography } from "@mui/mate
 
 const ProjectCard = (props) => {
     return (
-        <Card sx={{ maxWidth: 345 }} className="project-card" >
+        <Card sx={{ maxWidth: 245 }} className="project-card" >
             <CardMedia
                 className="project-card__media"
                 sx={{ height: 140 }}
@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
                 </Typography>
             </CardContent>
             <Box className="project-card__buttons">
-                <Button size="small" color="primary" href={ props.learn }>
+                <Button style={{ display: "flex", float: "right" }} size="small" color="primary" href={ props.learn }>
                     Learn More
                 </Button>
 
