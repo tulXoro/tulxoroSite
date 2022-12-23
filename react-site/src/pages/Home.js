@@ -18,7 +18,7 @@ class Home extends Component {
 
   render() {
     return (
-      <main>
+      <main id="main">
         <Hero scrollto={ this.scrollToContent } />
         <div className="content" ref={ this.contentRef }>
           <h1>Home</h1>

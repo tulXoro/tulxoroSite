@@ -1,0 +1,9 @@
+
+.about {
+    background-color: rgb(44, 44, 44);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
