@@ -36,9 +36,13 @@
 
 @media only screen and (max-width: 768px) {
     .project-container {
-      display: grid;
-      grid-template-columns: 1fr;
-      padding: 1em;
-      grid-row-gap: 50px;
+        align-items: center;
+
+        justify-content: center;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 50px;
     }
   }

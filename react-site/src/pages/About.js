@@ -19,8 +19,8 @@ class About extends React.Component {
 	render() {
 		return (
 			<main id="main">
-				<Sidebar />
 				<div className="about-container">
+				<Sidebar />
 					<h1 className="about-title">About</h1>
 					<div className="about-content">
 						<p className="about-text">
