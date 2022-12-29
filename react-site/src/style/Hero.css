@@ -10,18 +10,48 @@
     text-align: center;
     color: #fff;
     font-size: 1.5rem;
+    
+    overflow-y: hidden;
+
+}
+
+.hero-about {
+    align-self: start;
+    margin-left: 5%;
+    background-color: rgba(127, 255, 212, 0.329);
+    height: stretch;
+
+    border: rgb(44, 44, 44);
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+
+    backdrop-filter: saturate(180%) blur(10px);  
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+
+    max-width: min-content;
+
+}
+
+.hero-description {
+    margin-left: 5%;
+    margin-right: 5%;
+    word-wrap: break-word;
+
+
 }
 
 .scroll-down {
-    background-color: rgb(44, 44, 44, 0.5);
     position: absolute;
     border-radius: 20%;
     
-    bottom: 20px;
+    bottom: 60px;
     padding: 10px 20px;
     font-size: 2rem;
     color: #fff;
     animation: bounce 2s infinite;
+
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00ffbf, 0 0 80px #00ffbf, 0 0 90px #00ffbf, 0 0 100px #00ffbf, 0 0 150px #00ffbf;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -32,7 +62,6 @@
 }
 
 .scroll-down:hover {
-    background-color: rgb(44, 44, 44, 0.8);
     cursor: pointer;
 }
 

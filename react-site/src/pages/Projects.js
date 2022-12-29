@@ -21,8 +21,8 @@ class Projects extends React.Component {
             <main id="main">
                 <h1 className="projects-title">Projects</h1>
                 <div className="project-container">
-                        <ProjectCard className="project-card" title="Portfolio Website!" image="../public/hero.jfif" 
-                        description="This is the current website that you're currently on!" learn="/"/>
+                    <ProjectCard className="project-card" title="Portfolio Website!" image="../public/hero.jfif" 
+                        description="This is the current website that you're currently on!" learn="/projects/tulxoro-site"/>
                     
                     <ProjectCard className="project-card" title="Test" image="../public/hero.jfif" 
                         description="TEsT" learn="/"/>

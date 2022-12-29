@@ -8,6 +8,11 @@ class Home extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            slide: [ 1,2,3 ],
+            slideIndex: 1,
+        };
+
         this.contentRef = createRef();
         this.scrollToContent = this.scrollToContent.bind(this);
     }
@@ -25,6 +30,7 @@ class Home extends Component {
     scrollToContent = () => {
         this.contentRef.current.scrollIntoView({ behavior: "smooth" });
     };
+
 
     render() {
         return (
